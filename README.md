@@ -1,4 +1,4 @@
-Build the project
+```Build the project
 sbt clean stage universal:packageBin
 or, if you want to scp or ftp the created jar to some other maching, do 'dist' instead of 'stage'
 sbt clean dist universal:packageBin
@@ -20,7 +20,7 @@ window.duration.in.millis tells an Akka Actor how long to wait between reporting
     and the actor will calculate events/second for that same time period
     the actor also calculates events/second for the full proces time
 
-most of the code is somewhat general. Driver is an example of how to use the code.
+most of the code is somewhat general. Driver is an example of how to use the code.```
 
 the rest of the notes below will probably be removed soon. They are just dashed off notes, unlike the beautiful prose above
 
